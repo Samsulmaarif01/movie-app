@@ -5,9 +5,17 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-     <h1 className='text-3xl font-bold underline'>Hello World</h1>
-    </>
+    <main>
+       <div className='pattern'/>
+
+       <div className='wrapper'>
+          <header>
+            <img src='./hero.png' alt='hero banner'/>
+            <h1>Find <span className='text-gradient'>Movies</span> You'll Enjoy The Hassle</h1>
+            <p className=''>Search</p>
+          </header>
+       </div>
+    </main>
   )
 }
 
